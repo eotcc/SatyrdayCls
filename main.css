@@ -1,10 +1,46 @@
-h1{
-	color: navy;
-}
 body{
-	 background-color:wheat;
+    background-color: wheat;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
 }
+
+h1{
+    color: navy;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+a{
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+a:hover{
+    background-color: darkblue;
+}
+
 select{
-	color:black;
-	background-color:yellow;
+    color: black;
+    background-color: gold;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: 2px solid navy;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+select:hover{
+    background-color: yellow;
+}
+
+select:focus{
+    outline: none;
+    box-shadow: 0 0 8px navy;
 }
