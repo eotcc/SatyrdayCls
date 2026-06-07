@@ -1,46 +1,67 @@
 body{
-    background-color: #FFFFF0;
-    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
     text-align: center;
-    margin-top: 50px;
 }
 
 h1{
-    color: navy;
-    font-size: 40px;
-    margin-bottom: 20px;
+    color: #0b2d5c;
+    font-size: 42px;
+    margin-bottom: 15px;
 }
 
-a{
-    display: inline-block;
-    background-color: navy;
-    color: white;
-    text-decoration: none;
-    padding: 12px 25px;
-    border-radius: 8px;
+.subtitle{
+    color: #666;
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-a:hover{
-    background-color: darkblue;
-}
-
 select{
-    color: black;
-    background-color: gold;
+    width: 100%;
+    padding: 15px;
+
     font-size: 18px;
-    padding: 10px 15px;
-    border: 2px solid navy;
-    border-radius: 8px;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+
+    background: #fffdf5;
+    color: #333;
+
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 select:hover{
-    background-color: yellow;
+    border-color: #0b2d5c;
+    transform: translateY(-2px);
 }
 
 select:focus{
     outline: none;
-    box-shadow: 0 0 8px navy;
+    border-color: #0b2d5c;
+    box-shadow: 0 0 12px rgba(11,45,92,0.3);
+}
+
+.footer{
+    margin-top: 25px;
+    color: #777;
+    font-size: 14px;
 }
