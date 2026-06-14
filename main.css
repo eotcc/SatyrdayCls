@@ -81,6 +81,14 @@ input{
     font-size: 18px;
     border: 2px solid #d4af37;
     border-radius: 12px;
+    background: #fffdf5;
+    color: #333;
+    box-sizing: border-box;
+}
+
+#message{
+    margin-top: 15px;
+    color: red;
 }
 .footer{
     margin-top: 25px;
