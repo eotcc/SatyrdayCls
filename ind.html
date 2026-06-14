@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="main.css">
 <title>Saturday Church Class</title>
 </head>
 <body>
 
-<h1>Saturday Class</h1>
+<div class="container">
 
-<select onchange="window.location.href=this.value;">
-    <option value="" selected hidden>Select Section</option>
-    <option value="mezemran.html">Mezemran</option>
-    <option value="deacons.html">Deacons</option>
-</select>
+    <h1>Saturday Class</h1>
 
-<br><br>
+    <p class="subtitle">Select Section</p>
 
-<button onclick="window.open('amharic.html', '_blank')">
-    Amharic
-</button>
+    <select onchange="window.location.href=this.value;">
+        <option value="" selected hidden>Select Section</option>
+        <option value="mezemran.html">Mezemran</option>
+        <option value="deacons.html">Deacons</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="window.location.href='amharic.html'">
+        Amharic
+    </button>
+
+</div>
 
 </body>
 </html>
