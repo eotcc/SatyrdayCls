@@ -69,7 +69,7 @@ select:focus{
     cursor: pointer;
 }
 
-button:hover{
+.btn:hover{
     background: #15407d;
 }
 
