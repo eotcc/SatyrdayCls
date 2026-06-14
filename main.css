@@ -60,17 +60,20 @@ select:focus{
     box-shadow: 0 0 12px rgba(11,45,92,0.3);
 }
 .btn{
-    padding: 12px 25px;
+    width: 50%;
+    padding: 15px;
     font-size: 18px;
-    background: #0b2d5c;
+    background-color: #0b2d5c;
     color: white;
     border: none;
     border-radius: 12px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn:hover{
-    background: #15407d;
+    background-color: #15407d;
+    transform: translateY(-2px);
 }
 
 .footer{
