@@ -75,7 +75,13 @@ select:focus{
     background-color: #15407d;
     transform: translateY(-2px);
 }
-
+input{
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+}
 .footer{
     margin-top: 25px;
     color: #777;
