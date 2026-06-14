@@ -59,6 +59,19 @@ select:focus{
     border-color: #0b2d5c;
     box-shadow: 0 0 12px rgba(11,45,92,0.3);
 }
+button{
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #0b2d5c;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #15407d;
+}
 
 .footer{
     margin-top: 25px;
