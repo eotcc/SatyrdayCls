@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson PDF</title>
+    <link rel="stylesheet" href="lesson.css">
+</head>
+<body>
+
+<header>
+    <h1>Lesson PDF</h1>
+</header>
+
+<div class="container">
+
+    <!-- Table of Contents -->
+    <div class="sidebar">
+        <h2>Table of Contents</h2>
+
+        <a href="lesson.pdf#page=1" target="pdfViewer">Cover Page</a>
+        <a href="lesson.pdf#page=2" target="pdfViewer">Introduction</a>
+        <a href="lesson.pdf#page=5" target="pdfViewer">Chapter 1</a>
+        <a href="lesson.pdf#page=10" target="pdfViewer">Chapter 2</a>
+        <a href="lesson.pdf#page=15" target="pdfViewer">Chapter 3</a>
+        <a href="lesson.pdf#page=20" target="pdfViewer">Exercises</a>
+        <a href="lesson.pdf#page=25" target="pdfViewer">Summary</a>
+    </div>
+
+    <!-- PDF Viewer -->
+    <div class="viewer">
+        <iframe
+            name="pdfViewer"
+            src="lesson.pdf#page=1">
+        </iframe>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 School Learning Portal</p>
+</footer>
+
+</body>
+</html>
