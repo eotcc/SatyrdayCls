@@ -8,41 +8,40 @@
 </head>
 <body>
 
-<header>
-    <h1>Lesson PDF</h1>
-</header>
+    <header>
+        <h1>Lesson PDF</h1>
+    </header>
 
-<div class="container">
+    <div class="container">
 
-    <!-- Table of Contents -->
-    <div class="sidebar">
-        <h2>Table of Contents</h2>
+        <!-- Table of Contents -->
+        <div class="sidebar">
+            <h2>Table of Contents</h2>
 
-        <a href="Alphabet.pdf#page=1" target="pdfViewer">Cover Page</a>
-        <a href="Saturday Cls.pdf#page=2" target="pdfViewer">Introduction</a>
-        <a href="lesson.pdf#page=5" target="pdfViewer">Chapter 1</a>
-        <a href="lesson.pdf#page=10" target="pdfViewer">Chapter 2</a>
-        <a href="lesson.pdf#page=15" target="pdfViewer">Chapter 3</a>
-        <a href="lesson.pdf#page=20" target="pdfViewer">Exercises</a>
-        <a href="lesson.pdf#page=25" target="pdfViewer">Summary</a>
+            <a href="Alphabet.pdf#page=1" target="pdfViewer">Cover Page</a>
+            <a href="Saturday Cls.pdf#page=2" target="pdfViewer">Introduction</a>
+            <a href="lesson.pdf#page=5" target="pdfViewer">Chapter 1</a>
+            <a href="lesson.pdf#page=10" target="pdfViewer">Chapter 2</a>
+            <a href="lesson.pdf#page=15" target="pdfViewer">Chapter 3</a>
+            <a href="lesson.pdf#page=20" target="pdfViewer">Exercises</a>
+            <a href="lesson.pdf#page=25" target="pdfViewer">Summary</a>
+        </div>
+
+        <!-- PDF Viewer -->
+        <div class="pdf-container">
+            <h2>Lesson Viewer</h2>
+
+            <iframe
+                name="pdfViewer"
+                src="Alphabet.pdf#page=1">
+            </iframe>
+        </div>
+
     </div>
 
-    <!-- PDF Viewer -->
-<div class="pdf-container">
-    <h2>Alphabet PDF</h2>
-
-    <iframe 
-        src="Alphabet.pdf"
-        name="pdfViewer"
-        width="100%"
-        height="700px">
-    </iframe>
-</div>
-</div>
-
-<footer>
-    <p>&copy; 2026 School Learning Portal</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 School Learning Portal</p>
+    </footer>
 
 </body>
 </html>
